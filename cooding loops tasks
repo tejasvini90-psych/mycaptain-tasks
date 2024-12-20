@@ -1,0 +1,11 @@
+def fibonacci(n):
+    # First two Fibonacci numbers
+    a, b = 0, 1
+    
+    # Generating Fibonacci sequence up to the n-th number
+    for _ in range(n):
+        print(a, end=" ")  # Print the current Fibonacci number
+        a, b = b, a + b    # Update to the next two Fibonacci numbers
+
+# Example: Print the first 10 Fibonacci numbers
+fibonacci(10)
