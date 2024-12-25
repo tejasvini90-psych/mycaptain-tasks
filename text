@@ -1,0 +1,10 @@
+#import dependencies
+import numpy
+import sys
+import nltk
+from nltk.tokenize import RegexpTokenizer
+from nltk.corpus import stopwords
+from keras.models import Sequential
+from keras.layers import Dense, Dropout, LSTM
+from keras.utils import to_categorical
+from keras.callbacks import ModelCheckpoint
